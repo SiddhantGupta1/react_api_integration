@@ -45,7 +45,7 @@ const App = () => {
   if(ques.length > 0 ){
     return (
       <div className="App">
-        <h1 className="head">GenY</h1>
+        <h1 className="head">Gen-Y</h1>
         <div className="bar">
           <div className="progress">
             <p className="completed">{count+1}/10 Questions</p>

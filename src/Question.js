@@ -1,18 +1,11 @@
 import React from 'react';
 import style from './question.module.css';
 
-let sum=[];
-let score = 0;
 
 const Question = ({ question, correct, incorrect, id, answers0, answers1, answers2, answers3, setAnswers0, setAnswers1, setAnswers2, setAnswers3, settingAnswers, setNext }) => {
 
     const option=[correct, ...incorrect];
     option.sort();
-    let counter=0;
-    const handleAnswer = (num) => {
-        option[num] === correct ? counter=1 : counter=0 ; 
-        sum[id] = counter;
-    };
 
     const toggle0 = () => {
         settingAnswers();
