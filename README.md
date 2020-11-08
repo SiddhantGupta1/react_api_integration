@@ -1,3 +1,7 @@
+Next button won't work unless and until an option is selected</br>
+Timer is added but not functional</br>
+Design is responsive</br>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
